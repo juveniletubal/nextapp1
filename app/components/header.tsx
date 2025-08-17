@@ -37,7 +37,7 @@ const Header = () => {
         <div className="flex-1">
           <Link
             href="/"
-            className="text-2xl font-bold tracking-wide text-blue-700"
+            className="text-2xl font-bold tracking-wide text-blue-700 sm:text-sm"
           >
             LOGO NAME
           </Link>
