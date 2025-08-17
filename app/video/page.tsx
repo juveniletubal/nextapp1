@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const VideoPage = () => {
   return (
@@ -11,16 +12,40 @@ const VideoPage = () => {
 
       <div className="carousel w-full mt-9">
         <div id="item1" className="carousel-item w-full justify-center">
-          <img src="/images/pic1.png" className="h-96 object-contain mx-auto" />
+          <Image
+            src="/images/pic1.png"
+            alt="Picture 1"
+            width={600}
+            height={400}
+            className="h-96 object-contain mx-auto"
+          />
         </div>
         <div id="item2" className="carousel-item w-full justify-center">
-          <img src="/images/pic2.png" className="h-96 object-contain mx-auto" />
+          <Image
+            src="/images/pic2.png"
+            alt="Picture 2"
+            width={600}
+            height={400}
+            className="h-96 object-contain mx-auto"
+          />
         </div>
         <div id="item3" className="carousel-item w-full justify-center">
-          <img src="/images/pic3.jpg" className="h-96 object-contain mx-auto" />
+          <Image
+            src="/images/pic3.jpg"
+            alt="Picture 3"
+            width={600}
+            height={400}
+            className="h-96 object-contain mx-auto"
+          />
         </div>
         <div id="item4" className="carousel-item w-full justify-center">
-          <img src="/images/pic4.jpg" className="h-96 object-contain mx-auto" />
+          <Image
+            src="/images/pic4.jpg"
+            alt="Picture 4"
+            width={600}
+            height={400}
+            className="h-96 object-contain mx-auto"
+          />
         </div>
       </div>
 
