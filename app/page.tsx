@@ -59,7 +59,9 @@ export default function Home() {
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div>
-            <h1 className="text-5xl font-bold sm:text-2xl">Box Office News!</h1>
+            <h1 className="text-3xl lg:text-5xl sm:text-3xl font-bold">
+              Box Office News!
+            </h1>
             <p className="py-6 max-w-md leading-relaxed sm:text-lg">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
